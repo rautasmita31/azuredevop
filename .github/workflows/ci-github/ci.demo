@@ -1,0 +1,11 @@
+    name: Workflow
+    on: [push] # Triggers on every push to any branch
+
+    jobs:
+      build:
+        runs-on: ubuntu-latest # Specifies the operating system for the job
+        steps:
+          - name: Checkout code
+            uses: actions/checkout@v4 # Action to check out your repository code
+          - name: Greet user
+            run: echo "Hello, Actions!" # A simple command to run
