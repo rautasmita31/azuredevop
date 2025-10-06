@@ -8,4 +8,4 @@
           - name: Checkout code
             uses: actions/checkout@v4 # Action to check out your repository code
           - name: Greet user
-            run: echo "Hello, Actions!" # A simple command to run
+            run: echo "Hello, Actions Taken!" # A simple command to run
